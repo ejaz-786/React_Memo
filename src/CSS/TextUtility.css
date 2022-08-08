@@ -1,0 +1,23 @@
+body{
+    background-color: darkslategrey;
+}
+.container{
+    width: 50%;
+    margin: auto;
+    border: 2px solid rgb(54, 28, 28);
+    background-color: rgb(16, 158, 158);
+    border-radius: 10px;
+    /* height: 50vh; */
+
+}
+#area{
+    width: 40vw;
+    height: 22vh;
+    border-radius: 10px;
+}
+button{
+    margin: 5px;
+    height: 5.2vh;
+    background-color: rgb(58, 241, 12);
+    border-radius: 3px;
+}

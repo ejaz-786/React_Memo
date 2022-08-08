@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(187, 186, 186);
+}
+
+.main{
+    width: 35%;
+    margin: auto;
+    border: 2px solid rgb(49, 17, 17);
+    /* height: 45vh; */
+    margin-top: 25px;
+    border-radius: 10px;
+    background: linear-gradient(rgb(121, 187, 121),transparent),linear-gradient(rgb(255, 4, 4),transparent);
+    opacity: 0.8;
+}
+input,select{
+    width: 50%;
+    border-radius: 10px;
+    height: 5.2vh;
+    
+}
+
+button{
+    width: 40%;
+    margin: 5px 5px;
+    background-color: fuchsia;
+    border-radius: 10px;
+    color: black;
+    font-size: 23px;
+    
+}
+p{
+    font-size: 25px;
+    color: darkblue;
+    font-weight: bold;
+}
+
+@media (max-width:500px) {
+
+    .main{
+        width: 95%;
+        margin: auto;
+        margin-top: 50px;
+    }
+    
+}
